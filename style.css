@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --primary-red: rgb(218, 40, 40);
+    --secondary-red:  rgb(243, 74, 74);
+    --primary-gray: rgb(99, 99, 99);
+    --primary-bg-color: aliceblue;
+    --primary-font-color: aliceblue;
+    --primary-font: 'Lato', sans-serif;
+}
+
+.grid-container{
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr 5fr 3fr 2fr;
+    grid-template-areas: 
+    "a a a"
+    "b b b"
+    "c c c"
+    "d d d";
+}
+
+.item{
+    border: 2px solid red;
+}
+
+.a{
+    background: gray;
+    grid-area: a;
+    padding: 1px;
+}
+
+.b{
+    background: lightgray;
+    grid-area: b;
+    padding: 1px;
+}
+
+.c{
+    background: lightgray;
+    grid-area: c;
+    padding: 1px;
+}
+.d{
+    background: black;
+    grid-area: d;
+    padding: 1px;
+    color: white;
+}
+
+.red-font{
+    color: var(--primary-red);
+}
+
+.offer{
+    background-image: url(img/Pellet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid var(--primary-red);
+    border-bottom: 2px solid var(--primary-red);
+    color: black;
+}
+
