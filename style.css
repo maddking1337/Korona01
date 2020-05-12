@@ -11,17 +11,20 @@ body{
     --primary-bg-color: aliceblue;
     --primary-font-color: aliceblue;
     --primary-font: 'Lato', sans-serif;
+    --primary-white:white;
 }
 
 .grid-container{
     height: 200vh;
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 1fr 5fr 3fr 2fr;
+    grid-template-rows: 7% 4% 30% 20% 20% 20%;
     grid-template-areas: 
     "a a a"
+    "e e e"
     "b b b"
     "c c c"
+    "f f f"
     "d d d";
 }
 
@@ -30,7 +33,7 @@ body{
 }
 
 .a{
-    background: gray;
+    background:dimgray;
     grid-area: a;
     padding: 1px;
 }
@@ -51,10 +54,28 @@ body{
     grid-area: d;
     padding: 1px;
     color: white;
+
+}
+
+.e{
+    background: red;
+    grid-area: e;
+    padding: 1px;
+    color: white;
+}
+
+.f{
+    background: darkgray;
+    grid-area: f;
+    padding: 1px;
+    color: white;
 }
 
 .red-font{
     color: var(--primary-red);
+}
+.white-font{
+    color: var(--primary-white);
 }
 
 .offer{
@@ -64,5 +85,87 @@ body{
     border-top: 2px solid var(--primary-red);
     border-bottom: 2px solid var(--primary-red);
     color: black;
+}
+
+.map{
+    
+    position: relative;
+    left: 750px;
+    top: 10px;
+    border: solid 1px red;
+    width: 400px;
+    height: 250px;
+    
+    
+}
+
+.kontakt{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.logo{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+.cena{
+    position: relative;
+    left: 800px;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: 50px;
+    
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: 50px;
+}
+
+
+.box3{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: 50px;
+}
+
+.boxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu1{
+    margin: 10px;
+}
+
+.menu2{
+    margin: 10px;
+}
+
+.menu3{
+    margin: 10px;
+}
+
+.maplogo{
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
