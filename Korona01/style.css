@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --primary-red: rgb(218, 40, 40);
+    --secondary-red:  rgb(243, 74, 74);
+    --primary-gray: rgb(99, 99, 99);
+    --primary-bg-color: aliceblue;
+    --primary-font-color: aliceblue;
+    --primary-font: 'Lato', sans-serif;
+    --primary-white:white;
+}
+
+.grid-container{
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 6% 25% 4% 35% 15%;
+    grid-template-areas: 
+    "a a a"
+    "g g g"
+    "e e e"
+    "b b b"
+    "c c c"
+    "d d d";
+}
+
+.item{
+    border: 2px solid red;
+}
+
+.a{
+    background:dimgray;
+    grid-area: a;
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    width: 1897px;
+    height: 132px;
+}
+
+.b{
+    background: lightgray;
+    grid-area: b;
+    padding: 1px;
+
+}
+
+.g{
+    background: lightgray;
+    grid-area: g;
+    padding: 1px;
+    background: url(frima1.png) center no-repeat;
+    background-size:cover;
+
+}
+
+.c{
+    background: url(pellet.jpg) center no-repeat;
+    background-size:cover;
+    grid-area: c;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    background: black;
+    grid-area: d;
+    padding: 1px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.e{
+    background: red;
+    grid-area: e;
+    padding: 1px;
+    color: white;
+    
+    
+   
+}
+
+.red-font{
+    color: var(--primary-red);
+}
+.white-font{
+    color: var(--primary-white);
+}
+
+
+.map{
+
+    border: solid 2px red;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    margin: 50px;
+
+    
+    
+}
+
+.logo{
+   display: flex;
+   margin-left: 200px;
+   margin-top: -15px;
+}
+
+.cena{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: 50px;
+    border: solid 1px black;
+    
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: 50px;
+    border: solid 1px black;
+}
+
+
+.box3{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: 50px;
+    border: solid 1px black;
+}
+
+.boxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info1{
+    display: flex;
+    justify-content: center;
+}
+
+.pellet{
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    border:solid 2px black;
+    
+
+}
+
+.pelletlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.infobtn{
+    width: 75px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.5);
+    border:solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pelletbtn{
+    width: 75px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.5);
+    border:solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+   
+}
+
+.kontaktbtn{
+    width: 75px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.5);
+    border:solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  
+}
+
+.menubtn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 800px;
+
+
+
+}
+
+
+
