@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+.table{
+ position: relative;
+ left: 750px;
+ top: 300px;
+    
+}
+
+.tabelka{
+    background: lightgrey;
+    border-collapse: collapse;
+}
