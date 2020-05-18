@@ -8,9 +8,6 @@ body{
     --primary-red: rgb(218, 40, 40);
     --secondary-red:  rgb(243, 74, 74);
     --primary-gray: rgb(99, 99, 99);
-    --primary-bg-color: aliceblue;
-    --primary-font-color: aliceblue;
-    --primary-font: 'Lato', sans-serif;
     --primary-white:white;
 }
 
@@ -28,24 +25,21 @@ body{
     "d d d";
 }
 
-.item{
-    border: 2px solid red;
-}
-
 .a{
-    background: lightgrey;
+    background:gray;
     grid-area: a;
     padding: 1px;
     position: fixed;
     top: 0;
-    width: 1897px;
-    height: 132px;
+    width: 100%;
 }
 
 .b{
-    background: lightgray;
+    background: url("img/pal.JPG") center no-repeat; 
+    background-size:cover;
     grid-area: b;
     padding: 1px;
+    border: solid 2px red;
 
 }
 
@@ -55,7 +49,7 @@ body{
     padding: 1px;
     background: url(img/paltexjpg.JPG) center no-repeat;
     background-size:cover;
-
+    border: solid 2px red;
 }
 
 .c{
@@ -66,6 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 2px red;
 }
 .d{
     background: black;
@@ -74,7 +69,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    
+    border: solid 2px red;
     
 
 }
@@ -84,7 +79,7 @@ body{
     grid-area: e;
     padding: 1px;
     color: white;
-    
+    border: solid 2px red;
     
    
 }
@@ -124,7 +119,8 @@ body{
 .box1{
     width: 400px;
     height: 400px;
-    background: gray;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     margin: 50px;
     border: solid 1px black;
     
@@ -133,7 +129,8 @@ body{
 .box2{
     width: 400px;
     height: 400px;
-    background: gray;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     margin: 50px;
     border: solid 1px black;
 }
@@ -142,7 +139,8 @@ body{
 .box3{
     width: 400px;
     height: 400px;
-    background: gray;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     margin: 50px;
     border: solid 1px black;
 }
@@ -188,6 +186,25 @@ body{
     
     
 }
+
+.cennik{
+    display: flex;
+    margin-left: 1500px;
+    margin-top: -380px;
+    
+
+}
+
+.cennik1{
+    display: flex;
+    margin: 30px;
+}
+
+.cennik2{
+    display: flex;
+    margin: 30px;
+}
+
 
 
 

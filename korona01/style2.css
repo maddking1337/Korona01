@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-red: rgb(218, 40, 40);
+    --secondary-red:  rgb(243, 74, 74);
+    --primary-gray: rgb(99, 99, 99);
+    --primary-white:white;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 60% 25%;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+}
+
+.a{
+    grid-area: a;
+    background: gray;
+}
+
+.b{
+    grid-area: b;
+    background: url("img/pal.JPG") center no-repeat; 
+    background-size:cover;
+    border: solid 1px red;
+}
+
+.c{
+    grid-area: c;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: solid 1px red;
+}
+
+.logo{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -235px;
+ }
+
+ .cennik{
+    display: flex;
+    margin-left: 1500px;
+    margin-top: -380px;
+}
+
+.cennik1{
+    margin: 30px;
+}
+
+.cennik2{
+    margin: 30px;
+}
+
+.red-font{
+    color: var(--primary-red);
+}
+.white-font{
+    color: var(--primary-white);
+}
+

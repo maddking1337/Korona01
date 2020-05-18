@@ -21,33 +21,33 @@
         </div>
         <div class="item b">
         <div class="tablelka">
-        <?php
-                $servername = "localhost"; 
-                $username = "root";
-                $password = "";
-                $dbname = "madeja";
+                <?php
+                    $servername = "localhost"; 
+                    $username = "root";
+                    $password = "";
+                    $dbname = "madeja";
 
-                $conn = new mysqli($servername, $username, $password, $dbname);
+                    $conn = new mysqli($servername, $username, $password, $dbname);
 
-                $result2 = $conn->query("SELECT * FROM ceny_pellet");
+                    $result1 = $conn->query("SELECT * FROM ceny_palet");
 
-                echo("<table class='tabelka' border=1>");
-                echo("<tr>
-                <th>Rodzaj</th>
-                <th>Kaloryczność</th>
-                <th>Cena(zł/tona)</th>
-                </tr>");
+                    echo("<table class='tabelka' border=1>");
+                    echo("<tr>
+                    <th>Paleta</th>
+                    <th>Rozmiar</th>
+                    <th>Cena(zł/szt)</th>
+                    </tr>");
 
-                while($row=$result2->fetch_assoc() ){
-                    echo("<tr>");
-                    echo("<td>".$row['rodzaj']."</td>");
-                    echo("<td>".$row['kalorycznosc']."</td>");
-                    echo("<td>".$row['cena']."</td>");
-                    echo("</tr>");
-                }
-                echo("</table>");
+                    while($row=$result1->fetch_assoc() ){
+                        echo("<tr>");
+                        echo("<td>".$row['paleta']."</td>");
+                        echo("<td>".$row['rozmiar']."</td>");
+                        echo("<td>".$row['cena']."</td>");
+                        echo("</tr>");
+                    }
+                    echo("</table>");
 
-    ?>
+                ?>
             </div>
         </div>
         <div class="item c">
