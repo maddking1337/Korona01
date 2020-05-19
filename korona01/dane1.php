@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="item b">
-        <div class="tablelka">
+        <div class="tab">
                 <?php
                     $servername = "localhost"; 
                     $username = "root";
@@ -48,6 +48,7 @@
                     echo("</table>");
 
                 ?>
+                
             </div>
         </div>
         <div class="item c">

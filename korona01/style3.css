@@ -3,6 +3,13 @@ body{
     padding: 0;
 }
 
+:root{
+    --primary-red: rgb(218, 40, 40);
+    --secondary-red:  rgb(243, 74, 74);
+    --primary-gray: rgb(99, 99, 99);
+    --primary-white:white;
+}
+
 .grid{
     height: 100vh;
     display: grid;
@@ -14,10 +21,6 @@ body{
     "c";
 }
 
-.item{
-    border: solid 1px red;
-}
-
 .a{
     grid-area: a;
     background: gray;
@@ -25,8 +28,12 @@ body{
 
 .b{
     grid-area: b;
-    background: url("img/pal.JPG") center no-repeat; 
+    background: url("img/jcb.JPG") center no-repeat; 
     background-size:cover;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .c{
@@ -35,7 +42,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    
+    border: solid 1px red;
 }
 
 .logo{
@@ -48,6 +55,8 @@ body{
     display: flex;
     margin-left: 1500px;
     margin-top: -380px;
+    
+
 }
 
 .cennik1{
@@ -58,3 +67,17 @@ body{
     margin: 30px;
 }
 
+
+.red-font{
+    color: var(--primary-red);
+}
+.white-font{
+    color: var(--primary-white);
+}
+
+.tabelka{
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    height: 400px;
+}

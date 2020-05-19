@@ -44,13 +44,53 @@ body{
 }
 
 .g{
-    background: lightgray;
+   
     grid-area: g;
     padding: 1px;
     background: url(img/paltexjpg.JPG) center no-repeat;
     background-size:cover;
     border: solid 2px red;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
 }
+
+.g2{
+   
+    grid-area: g;
+    padding: 1px;
+    background: url(img/pal2.JPG) center no-repeat;
+    background-size:cover;
+    border: solid 2px red;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
+.g3{
+   
+    grid-area: g;
+    padding: 1px;
+    background: url(img/slider2.jpg) center no-repeat;
+    background-size:cover;
+    border: solid 2px red;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
+.g4{
+   
+    grid-area: g;
+    padding: 1px;
+    background: url(img/kloc1.jpg) center no-repeat;
+    background-size:cover;
+    border: solid 2px red;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
 
 .c{
     background: url(img/pellet.jpg) center no-repeat;
@@ -189,7 +229,7 @@ body{
 
 .cennik{
     display: flex;
-    margin-left: 1500px;
+    margin-left: 1300px;
     margin-top: -380px;
     
 
@@ -204,6 +244,42 @@ body{
     display: flex;
     margin: 30px;
 }
+
+.kalk1{
+    display: flex;
+    margin: 30px;
+
+}
+
+.btnZmiana{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+.btnZmiana1{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.btnZmiana2{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
 
 
 

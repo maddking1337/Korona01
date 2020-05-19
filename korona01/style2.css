@@ -31,6 +31,9 @@ body{
     background: url("img/pal.JPG") center no-repeat; 
     background-size:cover;
     border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .c{
@@ -52,15 +55,19 @@ body{
     display: flex;
     margin-left: 1500px;
     margin-top: -380px;
+    
+
 }
 
 .cennik1{
+    
     margin: 30px;
 }
 
 .cennik2{
     margin: 30px;
 }
+
 
 .red-font{
     color: var(--primary-red);
@@ -69,3 +76,9 @@ body{
     color: var(--primary-white);
 }
 
+.tabelka{
+    background-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    height: 400px;
+}
